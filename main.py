@@ -24,3 +24,5 @@ def generate():
 	)
 	song.generate()
 	return song.exportSong()
+
+app.run(debug=True, port=5000)
